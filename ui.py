@@ -1,5 +1,6 @@
 from objects import movie_database
 
+
 def displayMenu():
     print("COMMAND MENU")
     print("cat   - View movies by category")
@@ -9,12 +10,14 @@ def displayMenu():
     print("exit  - Exit program")
     print()
 
+
 def displayCategories():
     print("CATEGORIES")
     print("1. Animation")
     print("2. Comedy")
     print("3. History")
     print()
+
 
 def main():
 
@@ -42,6 +45,9 @@ def main():
             break
 
         print()
+
+        # sugma
+
 
 if __name__ == "__main__":
     main()
