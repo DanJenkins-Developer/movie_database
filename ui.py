@@ -22,7 +22,7 @@ def displayCategories():
 def main():
 
     # USE YOUR OWN FILE PATH TO THE DATABASE
-    file_path = 'C:/Users/Admin/Documents/Development/python_scripts/week_13/movies.db'
+    file_path = 'C:/Users/skydr/Documents/Development/GitHub/movie_database/movies.db'
 
     database = movie_database(file_path)
 
